@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/applestore/static/css/main.a48f7539.css",
+    "main.js": "/applestore/static/js/main.3595abd1.js",
+    "static/js/453.55b2104b.chunk.js": "/applestore/static/js/453.55b2104b.chunk.js",
+    "static/media/product_2.png": "/applestore/static/media/product_2.1bc52f8922d488cead68.png",
+    "static/media/product_3.png": "/applestore/static/media/product_3.48eda5293a6f605e73f7.png",
+    "static/media/product_4.png": "/applestore/static/media/product_4.6d83c6007d5109b357a8.png",
+    "static/media/product_1.png": "/applestore/static/media/product_1.b24c110a233df54143c8.png",
+    "static/media/product_5.png": "/applestore/static/media/product_5.b963def7555b7544d220.png",
+    "static/media/banner1.jpg": "/applestore/static/media/banner1.4a22881c941f7b645fa8.jpg",
+    "static/media/3_avatar-512.png": "/applestore/static/media/3_avatar-512.28aa12dfe2a07338b305.png",
+    "static/media/logo.svg": "/applestore/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/applestore/index.html",
+    "main.a48f7539.css.map": "/applestore/static/css/main.a48f7539.css.map",
+    "main.3595abd1.js.map": "/applestore/static/js/main.3595abd1.js.map",
+    "453.55b2104b.chunk.js.map": "/applestore/static/js/453.55b2104b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a48f7539.css",
+    "static/js/main.3595abd1.js"
+  ]
+}
