@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { setData, getData } from "../util/localStorage";
-const data = getData("cart");
+const data = getData("cart") || [];
 const initialState = {
   products: data || [],
   totalPrice: data.reduce(
