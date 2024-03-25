@@ -159,7 +159,10 @@ export default function RegisterPage() {
             {/* Phần toggle signup/in */}
             <div className="mt-10 italic text-lg">
               <span className="text-neutral-500">Login ?</span>
-              <Link to="/login" className="cursor-pointer ml-2 text-sky-700">
+              <Link
+                to="/applestore/login"
+                className="cursor-pointer ml-2 text-sky-700"
+              >
                 Click
               </Link>
             </div>
@@ -184,7 +187,7 @@ export async function action({ request, params }) {
   if (validate === "true") {
     userArr.push(userData);
     setData("user", userArr);
-    return redirect("/login");
+    return redirect("/applestore/login");
   } else {
     return null;
   }

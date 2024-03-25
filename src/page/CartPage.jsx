@@ -52,13 +52,25 @@ export default function CartPage() {
           <div className="w-full bg-neutral-100">
             <div className="flex justify-between py-5 px-6">
               <Link
-                to="/shop"
+                to="/applestore/shop"
+                onClick={() => {
+                  window.scroll({
+                    top: 0,
+                    left: 0,
+                  });
+                }}
                 className="hover:text-[#c07f00] font-light text-lg py-1 cursor-pointer"
               >
                 <i className="fa-solid fa-left-long mr-2"></i>Continue shopping
               </Link>
               <Link
-                to="/checkout"
+                to="/applestore/checkout"
+                onClick={() => {
+                  window.scroll({
+                    top: 0,
+                    left: 0,
+                  });
+                }}
                 className="hover:text-[#c07f00] hover:border-[#c07f00] font-light text-lg py-1 px-3 cursor-pointer border-2 border-neutral-900 "
               >
                 Proceed to checkout

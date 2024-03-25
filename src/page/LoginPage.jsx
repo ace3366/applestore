@@ -110,7 +110,10 @@ export default function LoginPage() {
             <div className="mt-10 italic text-lg">
               <span className="text-neutral-500">Create an account?</span>
 
-              <Link to="/register" className="cursor-pointer ml-2 text-sky-700">
+              <Link
+                to="/applestore/register"
+                className="cursor-pointer ml-2 text-sky-700"
+              >
                 Sign up
               </Link>
             </div>
@@ -141,7 +144,7 @@ export async function action({ request, params }) {
   if (loginUser) {
     if (loginUser.password === userData.password) {
       setData("currentUser", loginUser);
-      return redirect("/");
+      return redirect("/applestore");
     } else {
       return true;
     }

@@ -15,7 +15,7 @@ import "./App.css";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/applestore",
     element: <Layout></Layout>,
     loader: productLoader,
     id: "product-sample",

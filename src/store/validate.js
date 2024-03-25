@@ -29,7 +29,7 @@ const validateSlicer = createSlice({
             (action.payload.value === "" && "Email không được bỏ trống") ||
             (!action.payload.value.includes("@") && "Email không hợp lệ") ||
             (users &&
-              users.every((user) => user.email === action.payload.value) &&
+              users.some((user) => user.email === action.payload.value) &&
               "Email này đã tồn tại") ||
             null;
           break;

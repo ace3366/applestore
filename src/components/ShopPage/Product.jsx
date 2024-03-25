@@ -10,7 +10,7 @@ export default function Product({ img, name, price, id }) {
   return (
     <div className={`${classes.product} w-48`}>
       <Link
-        to={`/detail/${id}`}
+        to={`/applestore/detail/${id}`}
         onClick={() => {
           window.scroll({
             top: 0,

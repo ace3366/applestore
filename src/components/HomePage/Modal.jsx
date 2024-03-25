@@ -42,12 +42,13 @@ export default function Modal() {
             </div>
             <p className="text-neutral-400 mb-7">{modalInfo.desc}</p>
             <Link
-              to={`/detail/${modalInfo.id}`}
+              to={`/applestore/detail/${modalInfo.id}`}
               onClick={() => {
                 window.scroll({
                   top: 0,
                   left: 0,
                 });
+                dispatch(modalActions.HIDE_POPUP());
               }}
             >
               <button className="py-2 px-8 text-sm bg-[#383838] text-neutral-300">
