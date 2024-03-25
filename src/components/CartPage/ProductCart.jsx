@@ -31,13 +31,14 @@ export default function ProductCart({ id, quantity }) {
             <i
               className="fa-solid fa-caret-left w-5 text-center my-auto cursor-pointer"
               onClick={() => {
-                dispatch(
-                  cartActions.UPDATE_CART({
-                    id,
-                    quantity: 1,
-                    price: displayProduct.price,
-                  })
-                );
+                prod.quantity > 1 &&
+                  dispatch(
+                    cartActions.UPDATE_CART({
+                      id,
+                      quantity: 1,
+                      price: displayProduct.price,
+                    })
+                  );
               }}
             ></i>
             <span className="not-italic">{prod.quantity}</span>{" "}
